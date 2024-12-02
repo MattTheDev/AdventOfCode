@@ -2,5 +2,4 @@
 
 DayOne.SolvePartOne();
 DayOne.SolvePartTwo();
-
-DayTwo.SolvePartOne();
+DayTwo.SolveBothParts();
