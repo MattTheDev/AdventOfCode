@@ -3,3 +3,4 @@
 DayOne.SolvePartOne();
 DayOne.SolvePartTwo();
 DayTwo.SolveBothParts();
+DayThree.Solve();
