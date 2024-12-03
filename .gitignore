@@ -243,10 +243,11 @@ ModelManifest.xml
 *.jfm
 *.jfm
 *.pubxml
-/src/CouchBot.Services.Discord.CouchBot/Properties/PublishProfiles
 
 *.db
 .vscode
 
 appsettings.json
 AppSettings.json
+
+*.txt

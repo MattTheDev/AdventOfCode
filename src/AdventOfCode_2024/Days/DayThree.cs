@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2024.Days;
+namespace AdventOfCode_2024.Days;
 
 /// <summary>
 /// https://adventofcode.com/2024/day/3
@@ -73,7 +73,7 @@ public class DayThree
     private static string LoadInput()
     {
         // Load embedded input
-        var resourceName = "AdventOfCode2024.Input.DayThree.txt";
+        var resourceName = "AdventOfCode_2024.Input.DayThree.txt";
         var assembly = Assembly.GetExecutingAssembly();
         using var stream = assembly.GetManifestResourceStream(resourceName);
         using var reader = new StreamReader(stream);

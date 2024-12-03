@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace AdventOfCode2024.Days;
+namespace AdventOfCode_2024.Days;
 
 /// <summary>
 /// https://adventofcode.com/2024/day/2
@@ -11,7 +11,7 @@ public class DayTwo
     private static string[] LoadInput()
     {
         // Load embedded input
-        var resourceName = "AdventOfCode2024.Input.DayTwo.txt";
+        var resourceName = "AdventOfCode_2024.Input.DayTwo.txt";
         var assembly = Assembly.GetExecutingAssembly();
         using var stream = assembly.GetManifestResourceStream(resourceName);
         using var reader = new StreamReader(stream);

@@ -1,4 +1,4 @@
-﻿using AdventOfCode2024.Days;
+﻿using AdventOfCode_2024.Days;
 
 DayOne.SolvePartOne();
 DayOne.SolvePartTwo();
